@@ -1,0 +1,139 @@
+@media (max-widht: 319px) {
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-title {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .head-title {
+    max-width: 335px;
+  }
+  .header-h {
+    max-width: 335px;
+  }
+  .header-p {
+    max-width: 335px;
+  }
+  .header-button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* position: absolute; */
+  }
+  .header-img {
+    width: 69px;
+    height: 69px;
+    margin: 0px 0px 0px 300px;
+    /* position: relative;
+    bottom: 0;
+    right: 0; */
+  }
+  .images {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .images-p {
+    font-size: 24px;
+  }
+  .images2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .imagesp-2 {
+    max-width: 335px;
+  }
+  .text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .text-p1 {
+    max-width: 335px;
+    font-size: 24px;
+  }
+  .text-p2 {
+    max-width: 335px;
+    font-size: 18px;
+  }
+  .card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-p {
+    max-width: 335px;
+  }
+  .card-p1 {
+    font-size: 24px;
+    color: #1d1e25;
+  }
+  .card-p2 {
+    width: 335px;
+    font-size: 16px;
+  }
+  .card-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-direction: column;
+  }
+  .card-futtor {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 335px;
+  }
+  .card-futtor-p1 {
+    width: 335px;
+    font-size: 56px;
+    color: #1d1e25;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer-head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer-header {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+  }
+  .footer-header-p {
+    display: none;
+  }
+  .footer-header-logo {
+    margin-top: -60px;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+@media (min-width: 920px) and (max-width: 1280px) {
+  .hamburger {
+    display: none;
+  }
+  .nav-title {
+    display: block;
+    display: flex;
+  }
+}
